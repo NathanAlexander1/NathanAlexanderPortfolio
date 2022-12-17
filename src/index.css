@@ -17,9 +17,20 @@ main{
     padding: 1.5%;
 }
 
-.navList{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  list-style: none;
-}
+/* .ulForCards {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 3%;
+} */
+
+
+/* .projList{
+    list-style: none;
+    margin: 1% .5% 1% .5%;
+    border: 2px solid black;
+    height: 100%;
+} */
+
+
