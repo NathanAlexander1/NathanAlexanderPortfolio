@@ -8,7 +8,7 @@ import node from "../assets/proficiencies/nodelogo.webp";
 
 function Resume() {
   return (
-    <div className="vh-100 d-flex flex-column justify-content-between">
+    <div className="vh-100 d-flex flex-column justify-content-between text-center">
       <h1 >Download my resume below</h1>
       <div className="align-self-center">
         <a href={NathanResume} download>

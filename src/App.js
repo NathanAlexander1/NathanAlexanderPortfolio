@@ -13,7 +13,7 @@ function App() {
   return (
     <main>
     {/* <Header/> */}
-    <h1>Nathan Alexander's Portfolio</h1>
+    <h1 className="text-center">Nathan Alexander's Portfolio</h1>
     <NavBar/>
     {/* <AboutMe/>
     <Portfolio/>

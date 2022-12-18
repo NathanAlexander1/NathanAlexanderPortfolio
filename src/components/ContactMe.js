@@ -37,7 +37,7 @@ function ContactInfo() {
 
   return (
     <>
-      <h1>Contact me</h1>
+      <h1 className="text-center">Contact me</h1>
       <div className="contact-page vh-100 d-flex flex-column justify-content-center">
         <form className="contactForm d-flex flex-column align-self-center">
           <input 

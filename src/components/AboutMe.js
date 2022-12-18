@@ -8,6 +8,7 @@ import CSS from "../assets/proficiencies/css.png";
 import JSLogo from "../assets/proficiencies/jslogo.png";
 import reactLogo from "../assets/proficiencies/reactlogo.png";
 import node from "../assets/proficiencies/nodelogo.webp";
+import NathanResume from "../assets/Nathan-Resume.pdf";
 
 function AboutMe() {
   return (
@@ -78,37 +79,44 @@ function AboutMe() {
               </div>
             </div>
           </div>
- 
+
           <div className="d-flex flex-column">
-          <h3>Education</h3>
-          <div className="d-flex align-items-center mt-4">
-            <div>
-              <img
-                className="universityLogos"
-                src={UW}
-                alt="University of Washington"
-              />
-              <p>Full Stack Software Engineer Certificate</p>
+            <h3>Education</h3>
+            <div className="d-flex align-items-center mt-4">
+              <div>
+                <img
+                  className="universityLogos"
+                  src={Tufts}
+                  alt="Tufts University"
+                />
+                <p>MS Animals and Public Policy</p>
+              </div>
+              <div>
+                <img
+                  className="universityLogos"
+                  src={UW}
+                  alt="University of Washington"
+                />
+                <p>Full Stack Software Engineer Certificate</p>
+              </div>
+              <div>
+                <img
+                  className="universityLogos"
+                  src={UO}
+                  alt="University of Oregon"
+                />
+                <p>BA Environmental Studies</p>
+              </div>
             </div>
-            <div>
-              <img
-                className="universityLogos"
-                src={UO}
-                alt="University of Oregon"
-              />
-              <p>BA Environmental Studies</p>
-            </div>
-            <div>
-              <img
-                className="universityLogos"
-                src={Tufts}
-                alt="Tufts University"
-              />
-              <p>MS Animals and Public Policy</p>
-            </div>
-            </div>
-            </div>
-   
+          </div>
+
+          <div className="align-self-center">
+            <h3>
+              <a href={NathanResume} download>
+                Download my resume
+              </a>
+            </h3>
+          </div>
         </div>
       </div>
     </div>
