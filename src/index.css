@@ -17,6 +17,11 @@ main{
     padding: 1.5%;
 }
 
+.projList:hover {
+  border-color: yellow;
+  transform: scale(105%);
+}
+
 .individualLogos{
   display: flex;
   flex-direction: column;

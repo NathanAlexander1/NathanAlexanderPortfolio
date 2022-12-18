@@ -6,11 +6,14 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import ContactMe from './components/ContactMe';
+import Header from './components/Header'
 import Footer from './components/Footer'
 
 function App() {
   return (
     <main>
+    {/* <Header/> */}
+    <h1>Nathan Alexander's Portfolio</h1>
     <NavBar/>
     {/* <AboutMe/>
     <Portfolio/>
