@@ -17,11 +17,11 @@ function AboutMe() {
       <div className="d-flex justify-content-around">
         <div className="about-me-container d-flex flex-column col-5">
           <img
-            className="about-me-img w-100 rounded-circle"
+            className="about-me-img w-100 rounded-circle mt-5 px-4"
             src={nathanAtMeru}
             alt="Nathan at Meru"
           ></img>
-          <h3>Bio</h3>
+          <h3 className="pt-4">Bio</h3>
           <p>
             Hello! My name is Nathan Alexander and I am a full stack software
             engineer. I recently earned my{" "}

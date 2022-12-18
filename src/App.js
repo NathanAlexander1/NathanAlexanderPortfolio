@@ -12,8 +12,8 @@ import Footer from './components/Footer'
 function App() {
   return (
     <main>
-    {/* <Header/> */}
-    <h1 className="text-center">Nathan Alexander's Portfolio</h1>
+    <Header/>
+    {/* <h1 className="text-center">Nathan Alexander's Portfolio</h1> */}
     <NavBar/>
     {/* <AboutMe/>
     <Portfolio/>
