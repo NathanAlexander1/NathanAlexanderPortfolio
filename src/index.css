@@ -17,8 +17,13 @@ main{
     padding: 1.5%;
 }
 
+.universityLogos{
+  width:5vw;
+  align-self: center;
+}
+
 .projList:hover {
-  border-color: yellow;
+  border-color: yellow !important;
   transform: scale(105%);
 }
 
