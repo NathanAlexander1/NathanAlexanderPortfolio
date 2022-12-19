@@ -52,7 +52,7 @@ function AboutMe() {
           </p>
         </div>
         <div className="d-flex flex-column justify-content-around col-5">
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column mt-4">
             <h3>Skills</h3>
             <div className="proficiencies  mt-4">
               <div className="logosContainer d-flex flex-wrap justify-content-around">
@@ -78,12 +78,19 @@ function AboutMe() {
                 </div>
               </div>
             </div>
+            <div className="py-4">
+              <h5>Additional skills:</h5>
+              <p>
+                | Express.js | MySQL | MongoDB | Handlebars | jQuery | Bootstrap |
+                Tailwind |
+              </p>
+            </div>
           </div>
 
           <div className="d-flex flex-column">
             <h3>Education</h3>
-            <div className="d-flex align-items-center mt-4">
-              <div>
+            <div className="d-flex flex-column flex-wrap">
+              <div className="mt-4">
                 <img
                   className="universityLogos"
                   src={Tufts}
@@ -91,7 +98,7 @@ function AboutMe() {
                 />
                 <p>MS Animals and Public Policy</p>
               </div>
-              <div>
+              <div className="mt-4">
                 <img
                   className="universityLogos"
                   src={UW}
@@ -99,7 +106,7 @@ function AboutMe() {
                 />
                 <p>Full Stack Software Engineer Certificate</p>
               </div>
-              <div>
+              <div className="mt-4">
                 <img
                   className="universityLogos"
                   src={UO}
@@ -110,7 +117,7 @@ function AboutMe() {
             </div>
           </div>
 
-          <div className="align-self-center">
+          <div className="align-self-center py-3">
             <h3>
               <a href={NathanResume} download>
                 Download my resume

@@ -7,7 +7,7 @@ import NathanResume from "../assets/Nathan-Resume.pdf";
 
 function footer() {
   return (
-    <div className="headerLinks d-flex justify-content-around align-items-center mt-2 ">
+    <div className="headerLinks d-flex justify-content-around align-items-center py-4 footer">
 
         <a className="text-decoration-none" target="_blank" rel="noreferrer" href="mailto:nika827@msn.com">Email</a>
         <a target="_blank" rel="noreferrer" href="https://www.github.com/NathanAlexander1"><img src={gitHubImage} height="40" alt="GitHub Link"/></a>

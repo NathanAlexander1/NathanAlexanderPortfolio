@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function NavBar() {
   return (
     <div className="navList d-flex justify-content-around flex-wrap mb-3 mt-4">

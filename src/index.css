@@ -1,3 +1,11 @@
+:root {
+  --primary: #dad7cd;
+  --secondary: #a3b18a;
+  --third: #588157;
+  --fourth: #3a5a40;
+  --fifth: #344e41;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,8 +21,13 @@ code {
 }
 
 main{
-    width: 100%;
-    padding: 5%;
+    width: 100vw;
+    /* padding:0% 0% 2% 0%; */
+}
+
+/* header */
+.header{
+  background-color: var(--third);
 }
 
 .universityLogos{
@@ -41,3 +54,11 @@ main{
   margin:1% 0 1% 0;
 }
 
+/* footer */
+.footer {
+  background-color: var(--third);
+}
+
+.footer a{
+  color: black;
+}

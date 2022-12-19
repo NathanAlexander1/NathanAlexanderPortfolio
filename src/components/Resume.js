@@ -8,16 +8,11 @@ import node from "../assets/proficiencies/nodelogo.webp";
 
 function Resume() {
   return (
-    <div className="vh-100 d-flex flex-column justify-content-between text-center">
-      <h1 >Download my resume below</h1>
+    <div className="vh-100 d-flex flex-column justify-content-center text-center">
       <div className="align-self-center">
-        <a href={NathanResume} download>
+      <h1 ><a href={NathanResume} download>
           Download my resume
-        </a>
-      </div>
-   
-      <div className="resumeDiv pageNames d-flex flex-column align-items-center">
-        <p>I am also proficient in ....................</p>
+        </a></h1>
       </div>
     </div>
   );
