@@ -27,7 +27,7 @@ main{
 
 /* header */
 .header{
-  background-color: var(--third);
+  background-color: var(--secondary);
 }
 
 .universityLogos{
@@ -56,7 +56,7 @@ main{
 
 /* footer */
 .footer {
-  background-color: var(--third);
+  background-color: var(--secondary);
 }
 
 .footer a{

@@ -6,7 +6,7 @@ import NathanResume from "../assets/Nathan-Resume.pdf";
 
 function header() {
   return (
-    <div className="header headerLinks d-flex justify-content-around">
+    <div className="header headerLinks d-flex justify-content-around py-4">
       <div>
         <h1 className="text-center align-items-center">Nathan's Portfolio</h1>
       </div>
