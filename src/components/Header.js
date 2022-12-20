@@ -1,8 +1,7 @@
 import React from "react";
 import gitHubImage from "../assets/platformImgs/ghImage.png";
 import linkedInImage from "../assets/platformImgs/linkedIn.png";
-import stackOverflowImage from "../assets/platformImgs/stackoverflow.png";
-import NathanResume from "../assets/Nathan-Resume.pdf";
+// import NathanResume from "../assets/Nathan-Resume.pdf";
 
 function header() {
   return (
