@@ -43,8 +43,12 @@ main{
   border-color: yellow !important;
   transform: scale(105%);
   transition: .5s ease;
-  opacity: .5;
 
+}
+
+.projImg:hover {
+  transition: .5s ease;
+  opacity: .8;
 }
 
 .individualLogos{

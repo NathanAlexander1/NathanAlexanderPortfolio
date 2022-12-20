@@ -79,7 +79,7 @@ function project() {
           <div key={"a" + i} className="pageNames col-lg-4 col-md-4 col-sm-4 col-xs-2 mx-5 my-3" >
             <div key={"b" + i} className="projList h-100 . list-unstyled">
               <Card style={{ height: "100%"}}>
-                <div key={"c" + i}>
+                <div className="projImg" key={"c" + i}>
                   <Card.Link target="_blank" href={p.deploymentLink}>
                     <Card.Img style={{ height: "100%"}}
                       className="projImg border"
