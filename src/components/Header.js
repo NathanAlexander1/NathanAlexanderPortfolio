@@ -1,6 +1,7 @@
 import React from "react";
 import gitHubImage from "../assets/platformImgs/ghImage.png";
 import linkedInImage from "../assets/platformImgs/linkedIn.png";
+import EmailImage from "../assets/platformImgs/email.png"
 // import NathanResume from "../assets/Nathan-Resume.pdf";
 
 function header() {
@@ -10,6 +11,7 @@ function header() {
         <h1 className="text-center align-items-center">Nathan's Portfolio</h1>
       </div>
       <div className="d-flex col-2 justify-content-around align-items-center">
+      <a className="text-decoration-none" target="_blank" rel="noreferrer" href="mailto:nika827@msn.com"><img src={EmailImage} height="32vh" alt="Email Image"/></a>
         <a className="px-1"
           target="_blank"
           rel="noreferrer"
