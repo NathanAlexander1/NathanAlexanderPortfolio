@@ -3,6 +3,7 @@ import gitHubImage from "../assets/platformImgs/ghImage.png"
 import linkedInImage from "../assets/platformImgs/linkedIn.png"
 import NathanResume from "../assets/Nathan-Resume.pdf";
 import EmailImage from "../assets/platformImgs/email.jpg"
+import Resume from "../assets/platformImgs/resume.png"
 
 
 function footer() {
@@ -13,7 +14,7 @@ function footer() {
         <a target="_blank" rel="noreferrer" href="https://www.github.com/NathanAlexander1"><img src={gitHubImage} height="40" alt="GitHub Link"/></a>
         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nathan-alexander-a8460713a"><img src={linkedInImage} height="40" alt="LinkedIn Link"/></a>
        
-        <a className="text-decoration-none" href={NathanResume} download>Resume</a>
+        <a className="text-decoration-none" href={NathanResume} download><img src={Resume} height="40" alt="Resume Image"/></a>
         
     </div>
   )

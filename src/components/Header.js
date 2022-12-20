@@ -2,7 +2,8 @@ import React from "react";
 import gitHubImage from "../assets/platformImgs/ghImage.png";
 import linkedInImage from "../assets/platformImgs/linkedIn.png";
 import EmailImage from "../assets/platformImgs/email.jpg"
-// import NathanResume from "../assets/Nathan-Resume.pdf";
+import NathanResume from "../assets/Nathan-Resume.pdf";
+import Resume from "../assets/platformImgs/resume.png"
 
 function header() {
   return (
@@ -27,8 +28,7 @@ function header() {
           <img className="mh-100" src={linkedInImage} height="32vw" alt="LinkedIn Link" />
         </a>
 
-        {/* <a target="_blank" rel="noreferrer" href="mailto:nika827@msn.com">Email</a>
-        <a href={NathanResume} download>Resume</a> */}
+        <a className="text-decoration-none" href={NathanResume} download><img src={Resume} width="32vw" alt="Resume Image"/></a>
       </div>
     </div>
   );

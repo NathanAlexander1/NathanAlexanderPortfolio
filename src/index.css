@@ -30,6 +30,10 @@ main{
   background-color: var(--secondary);
 }
 
+.navLink:hover{
+  transform: scale(115%);
+}
+
 .universityLogos{
   width:5vw;
   align-self: center;
@@ -38,6 +42,9 @@ main{
 .projList:hover {
   border-color: yellow !important;
   transform: scale(105%);
+  transition: .5s ease;
+  opacity: .5;
+
 }
 
 .individualLogos{
