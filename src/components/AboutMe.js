@@ -93,18 +93,18 @@ function AboutMe() {
               <div className="mt-4">
                 <img
                   className="universityLogos"
-                  src={Tufts}
-                  alt="Tufts University"
-                />
-                <p>MS Animals and Public Policy</p>
-              </div>
-              <div className="mt-4">
-                <img
-                  className="universityLogos"
                   src={UW}
                   alt="University of Washington"
                 />
                 <p>Full Stack Software Engineer Certificate</p>
+              </div>
+              <div className="mt-4">
+                <img
+                  className="universityLogos"
+                  src={Tufts}
+                  alt="Tufts University"
+                />
+                <p>MS Animals and Public Policy</p>
               </div>
               <div className="mt-4">
                 <img
