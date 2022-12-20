@@ -12,7 +12,7 @@ function header() {
         <h1 className="text-center align-items-center">Nathan's Portfolio</h1>
       </div>
       <div className="d-flex col-2 justify-content-around align-items-center">
-      <a className="text-decoration-none" target="_blank" rel="noreferrer" href="mailto:nika827@msn.com"><img src={EmailImage} height="32vh" alt="Email Image"/></a>
+      <a className="text-decoration-none" target="_blank" rel="noreferrer" href="mailto:nika827@msn.com"><img src={EmailImage} height="32vh" alt="Email"/></a>
         <a className="px-1"
           target="_blank"
           rel="noreferrer"
@@ -28,7 +28,7 @@ function header() {
           <img className="mh-100" src={linkedInImage} height="32vw" alt="LinkedIn Link" />
         </a>
 
-        <a className="text-decoration-none" href={NathanResume} download><img src={Resume} width="32vw" alt="Resume Image"/></a>
+        <a className="text-decoration-none" href={NathanResume} download><img src={Resume} width="32vw" alt="Resume"/></a>
       </div>
     </div>
   );
