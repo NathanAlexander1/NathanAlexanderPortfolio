@@ -1,7 +1,7 @@
 import React from "react";
 import gitHubImage from "../assets/platformImgs/ghImage.png";
 import linkedInImage from "../assets/platformImgs/linkedIn.png";
-import EmailImage from "../assets/platformImgs/email.png"
+import EmailImage from "../assets/platformImgs/email.jpg"
 // import NathanResume from "../assets/Nathan-Resume.pdf";
 
 function header() {
