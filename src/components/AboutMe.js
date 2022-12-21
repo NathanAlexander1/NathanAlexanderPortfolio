@@ -14,8 +14,8 @@ function AboutMe() {
   return (
     <div className="text-center">
       <h1>About me</h1>
-      <div className="d-flex justify-content-around">
-        <div className="about-me-container d-flex flex-column col-5">
+      <div className="d-flex flex-column justify-content-around flex-xl-row flex-lg-row flex-md-row">
+        <div className="about-me-container d-flex flex-column col-xl-5 col-lg-5 col-md-5 ">
           <img
             className="about-me-img w-100 rounded-circle mt-5 px-4"
             src={nathanAtMeru}
@@ -31,7 +31,7 @@ function AboutMe() {
               href="https://bootcamp.uw.edu/coding/"
             >
               {" "}
-              cerificate in full stack development
+              certificate in full stack development
             </a>{" "}
             from the University of Washington's coding bootcamp and am eager to
             dive into the field of web development!
@@ -62,7 +62,7 @@ function AboutMe() {
             values and passions.
           </p>
         </div>
-        <div className="d-flex flex-column justify-content-around col-5">
+        <div className="d-flex flex-column justify-content-around col-xl-5 col-lg-5 col-md-5 ">
           <div className="d-flex flex-column mt-4">
             <h3>Skills</h3>
             <div className="proficiencies  mt-4">
