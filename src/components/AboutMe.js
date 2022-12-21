@@ -12,7 +12,7 @@ import NathanResume from "../assets/Nathan-Resume.pdf";
 
 function AboutMe() {
   return (
-    <div className="text-center">
+    <div className="sections text-center">
       <h1>About me</h1>
       <div className="d-flex flex-column justify-content-around flex-xl-row flex-lg-row flex-md-row">
         <div className="about-me-container d-flex flex-column col-xl-5 col-lg-5 col-md-5 ">

@@ -36,12 +36,12 @@ function ContactInfo() {
   };
 
   return (
-    <>
+    <div className="sections">
       <h1 className="text-center">Contact me</h1>
-      <div className="contact-page vh-100 d-flex flex-column justify-content-center">
-        <form className="contactForm d-flex flex-column align-self-center">
+      <div className="contact-page vh-100 d-flex flex-column ">
+        <form className="contactForm d-flex flex-column  w-100">
           <input 
-            className="form-field"
+            className="form-field p-2"
             name="name"
             placeholder="Please enter your name"
             value={name}
@@ -93,7 +93,7 @@ function ContactInfo() {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 }
 
