@@ -7,11 +7,11 @@ import Resume from "../assets/platformImgs/resume.png"
 
 function header() {
   return (
-    <div className="header headerLinks d-flex justify-content-around py-4">
-      <div>
-        <h1 className="text-center align-items-center">Nathan's Portfolio</h1>
+    <div className="header headerLinks d-flex flex-wrap justify-content-around py-4">
+      <div className="col-12 text-center">
+        <h1 className="align-items-center">Nathan's Portfolio</h1>
       </div>
-      <div className="d-flex col-2 justify-content-around align-items-center">
+      <div className="d-flex col-3 justify-content-around align-items-center">
       <a className="text-decoration-none" target="_blank" rel="noreferrer" href="mailto:nika827@msn.com"><img src={EmailImage} height="32vh" alt="Email"/></a>
         <a className="px-1"
           target="_blank"

@@ -8,10 +8,12 @@ import Resume from './components/Resume';
 import ContactMe from './components/ContactMe';
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Banner from './assets/bannerImage.png'
 
 function App() {
   return (
     <main>
+      {/* <img src={Banner} width="100%"/> */}
     <Header/>
     {/* <h1 className="text-center">Nathan Alexander's Portfolio</h1> */}
     <NavBar/>
