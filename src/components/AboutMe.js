@@ -45,7 +45,7 @@ function AboutMe() {
             user interfaces. I am capable as either a frontend or backend
             developer and am a strong researcher, able to solve problems as they
             arise in a timely and productive manner. I am eager to apply my
-            skills and continue growing as an engineer.
+            skills and to continue growing as an engineer.
           </p>
 
           <p>
