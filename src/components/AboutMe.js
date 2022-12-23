@@ -129,11 +129,15 @@ function AboutMe() {
           </div>
 
           <div className="align-self-center py-3">
-            <h3>
+            <a href={NathanResume} download>
+              <button type="button" class="btn btn-primary">View resume</button>
+            </a>
+
+            {/* <h3>
               <a href={NathanResume} download>
-                Download my resume
+                View resume
               </a>
-            </h3>
+            </h3> */}
           </div>
         </div>
       </div>
