@@ -19,19 +19,19 @@ function project() {
       techUsed: "Google Maps API, Edamam API, React, JWT, Tailwind, Express",
     },
     {
-      image: zooGame,
-      projectName: "Zoo Animal Game",
-      description: "This is a fun and educational game designed to teach users about new and exciting animals theough various forms of media.",
-      deploymentLink: "https://felishayumacias.github.io/Zoo-Animal-Game/",
-      gitHubLink: "https://github.com/FelishaYuMacias/Zoo-Animal-Game",
-      techUsed: "placeholder",
-    },
-    {
       image: allEvents,
       projectName: "E-vents",
       description: "This is an event scheduling application that allows users to create and edit events, mark them as public or private and invite friends to join.",
       deploymentLink: "https://event-planner-bnnr.herokuapp.com/",
       gitHubLink: "https://github.com/24rgraham/event-planner-project",
+      techUsed: "placeholder",
+    },
+    {
+      image: zooGame,
+      projectName: "Zoo Animal Game",
+      description: "This is a fun and educational game designed to teach users about new and exciting animals theough various forms of media.",
+      deploymentLink: "https://felishayumacias.github.io/Zoo-Animal-Game/",
+      gitHubLink: "https://github.com/FelishaYuMacias/Zoo-Animal-Game",
       techUsed: "placeholder",
     },
     {
