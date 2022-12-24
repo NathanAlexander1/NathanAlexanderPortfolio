@@ -59,7 +59,7 @@ function AboutMe() {
             I am very interested in making the world a better and more
             sustainable place and am eager to continuing developing my
             programming literacy with a company or organization that shares my
-            values and passions.
+            values and passions. Please feel free to email me at <a className="text-decoration-none" target="_blank" rel="noreferrer" href="mailto:nika827@msn.com">nika827@msn.com</a>.
           </p>
         </div>
         <div className="d-flex flex-column justify-content-around col-xl-5 col-lg-5 col-md-5 ">
