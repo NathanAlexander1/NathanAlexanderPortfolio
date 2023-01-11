@@ -24,15 +24,15 @@ function project() {
       description: "This is an event scheduling application that allows users to create and edit events, mark them as public or private and invite friends to join.",
       deploymentLink: "https://event-planner-bnnr.herokuapp.com/",
       gitHubLink: "https://github.com/24rgraham/event-planner-project",
-      techUsed: "placeholder",
+      techUsed: "FullCalendar.io, Cloudinary widget, Bootstrap",
     },
     {
       image: zooGame,
       projectName: "Zoo Animal Game",
-      description: "This is a fun and educational game designed to teach users about new and exciting animals theough various forms of media.",
+      description: "This is a fun and educational full stack game designed to teach users about new and exciting animals through various forms of media.",
       deploymentLink: "https://felishayumacias.github.io/Zoo-Animal-Game/",
       gitHubLink: "https://github.com/FelishaYuMacias/Zoo-Animal-Game",
-      techUsed: "placeholder",
+      techUsed: "Designed our own API for this project",
     },
     {
       image: weatherApp,

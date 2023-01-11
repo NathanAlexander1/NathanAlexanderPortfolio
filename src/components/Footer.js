@@ -2,7 +2,7 @@ import React from "react";
 import gitHubImage from "../assets/platformImgs/ghImage.png"
 import linkedInImage from "../assets/platformImgs/linkedIn.png"
 import NathanResume from "../assets/Nathan-Resume.pdf";
-import EmailImage from "../assets/platformImgs/email.jpg"
+import EmailImage from "../assets/platformImgs/email.png"
 import Resume from "../assets/platformImgs/resume.png"
 
 
