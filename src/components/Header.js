@@ -4,6 +4,7 @@ import linkedInImage from "../assets/platformImgs/linkedIn.png";
 import EmailImage from "../assets/platformImgs/email.png"
 import NathanResume from "../assets/Nathan-Resume.pdf";
 import Resume from "../assets/platformImgs/resume.png"
+// import { IconName } from "react-icons/ai";
 
 function header() {
   return (
