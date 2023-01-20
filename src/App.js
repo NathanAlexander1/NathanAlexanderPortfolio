@@ -23,6 +23,7 @@ function App() {
     <ContactMe/> */}
     <Router>
       <Routes>
+        <Route path="/" element={<AboutMe/>}/>
         <Route path="/aboutMe" element={<AboutMe/>}/>
         <Route path="/portfolio" element={<Portfolio/>}/>
         <Route path="/resume" element={<Resume/>}/>

@@ -6,6 +6,7 @@ import weatherApp from "../assets/projects/weather-app.png";
 import noteTaker from "../assets/projects/notetaker.png";
 import workScheduler from "../assets/projects/workday-scheduler.png";
 import triviaProject from "../assets/projects/trivia-project.png";
+import tipCalc from "../assets/projects/tipCalc.png";
 import Card from "react-bootstrap/Card";
 
 function project() {
@@ -69,6 +70,15 @@ function project() {
       deploymentLink: "https://nathanalexander1.github.io/trivia-project/",
       gitHubLink: "https://github.com/NathanAlexander1/trivia-project",
       techUsed: "HTML, CSS, JS, Local Storage",
+    },
+    {
+      image: tipCalc,
+      projectName: "Tip Calculator",
+      description:
+        "Quickly and easily calculate tip percentage and dollar amount!",
+      deploymentLink: "https://nathanalexander1.github.io/tip-calculator/",
+      gitHubLink: "https://github.com/NathanAlexander1/tip-calculator",
+      techUsed: "HTML, CSS, JS",
     },
   ];
 
