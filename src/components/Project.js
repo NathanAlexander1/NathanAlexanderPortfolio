@@ -15,7 +15,7 @@ function project() {
       image: wastenot,
       projectName: "WasteNot",
       description: "This application allows users to organize and track their kitchen(s) and helps them donate excess food to local food banks.",
-      deploymentLink: "https://wastenotkitchentracker.netlify.app/",
+      deploymentLink: "https://https://kitchentracker.netlify.app/",
       gitHubLink: "https://github.com/rachlally/feast-front-end",
       techUsed: "Google Maps API, Edamam API, React, JWT, Tailwind, Express",
     },
